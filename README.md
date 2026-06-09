@@ -1,5 +1,7 @@
 # BachelorThesis-Fermi-LAT
 
+## Summary
+
 This repository contains codes and images produced during the preparation of bachelor thesis. Below is a short summary of each step:
 
 1. Using 10 years Fermi-LAT simulated data, and focusing only on 1-2 GeV energy bin, we explore the latent space of a Convolutional Autoencoder network that was trained to reconstruct Fermi-LAT background gamma-rays, which in our case is a combination of Diffuse Interstellar Emission and Isotropic Background. Example of background reconstruction is shown below:
@@ -15,7 +17,9 @@ This repository contains codes and images produced during the preparation of bac
 3. We then further inspect the top 5 total images where their background counterparts lie closest (farthest) to the background cluster in this PCA space, and show that indeed they are background (source) dominated (in terms of photon counts). This is shown in Figure below. 
 
 _Shortest Distance (background dominated)_
-![dist-bkg](low5_pca_lat_ld256conv4_64.png) 
+![dist-bkg](images/low5_pca_lat_ld256conv4_64.png) 
 
 _Longest Distance (source dominated)_
-![dist-src](top5_pca_lat_ld256conv4_64.png)
+![dist-src](images/top5_pca_lat_ld256conv4_64.png)
+
+## Code Descriptions
